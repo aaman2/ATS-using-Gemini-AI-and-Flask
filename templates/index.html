@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart ATS - Improve Your Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Smart ATS - Improve Your Resume</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="jd">Paste the Job Description:</label>
+                <textarea id="jd" name="jd" rows="5" class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Your Resume (PDF):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
+                <small id="resumeHelp" class="form-text text-muted">Please upload a PDF file.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
