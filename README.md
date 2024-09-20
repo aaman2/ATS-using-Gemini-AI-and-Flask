@@ -27,3 +27,10 @@ Folder_Name/
 - Python 3.8 or higher
 - A Google Generative AI API key
 
+
+Bash script here -->
+pip install Flask
+pip install PyPDF2
+pip install python-dotenv
+pip install google-generativeai
+ 
